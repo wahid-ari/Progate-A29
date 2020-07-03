@@ -228,6 +228,67 @@ main {
   padding-bottom: .1em;
 }
 
+/* bagian whymust di sini */
+#whymust{
+  padding-bottom: 5vh;
+}
+
+#whymust h2 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.whymust {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.whymustText{
+  position: relative;
+}
+
+.whymustText img {
+  width: 35vw;
+  justify-content: center;
+  align-items: center;
+  top: 70px;
+}
+
+.whymustList {
+  width: 50%;
+}
+
+ol {
+  list-style: none;
+  color:  #16a085;
+  margin-right: 20px;
+}
+
+ol li {
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+li p {
+  font-size: 16px;
+  color: #000;
+  padding-left: 60px;
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+li span{
+  position: absolute;
+  line-height: 55px;
+  font-weight: 600;
+}
+
 
 /* bagian lesson di sini */
 #lesson {

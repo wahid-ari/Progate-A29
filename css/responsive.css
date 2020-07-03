@@ -10,6 +10,23 @@
     margin: 12px auto;
   }
 
+  .whymustText {
+    display: none;
+  }
+
+  .whymustList {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .whymust {
+    width: 100%;
+  }
+
+  #whymust h2 {
+    margin-top: 100px;
+  }
+
 }
 
 /* tablet screen view */
