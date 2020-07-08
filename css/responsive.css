@@ -5,13 +5,25 @@
     margin: -20px auto 21px;
   }
 
+  .people img {
+    display: block;
+    margin: auto;
+  }
+  
   #landing h1 {
     font-size: 1.7em;
     margin: 12px auto;
   }
 
   .whymustText {
-    display: none;
+    display: grid;
+    margin: auto 50px;
+  }
+
+  .whymustText img {
+    width: 80%;
+    display: block;
+    margin: auto;
   }
 
   .whymustList {
@@ -20,6 +32,7 @@
   }
 
   .whymust {
+    display: grid;
     width: 100%;
   }
 
