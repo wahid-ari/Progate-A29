@@ -420,8 +420,7 @@ li span{
 #organizer img {
   display: block;
   width: auto;
-  max-width: 80%;
-  max-height: 100px;
+  max-height: 150px;
   margin: 0 auto;
   transition: .25s all;
 }
@@ -431,6 +430,24 @@ li span{
   animation: fa-animation 2s ease-in-out infinite alternate-reverse both;
 }
 
+/* bagian organizer di sini */
+#tentang {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#tentang h2 {
+  font-size: 1.5em;
+}
+
+#tentang img {
+  display: block;
+  width: auto;
+  max-width: 80%;
+  max-height: 350px;
+  margin: -20px auto;
+  transition: .25s all;
+}
 
 /* bagian footer di sini */
 footer {
